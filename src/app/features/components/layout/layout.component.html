@@ -1,0 +1,22 @@
+<section class="relative w-full bg-center bg-cover pt-5" style="background-image: url('./assets/images/image-1.jpg');">
+
+	<div style="background: linear-gradient(rgba(45, 45, 45, 0.9) 0%, rgba(45, 45, 45, 0) 100%);">
+
+		<app-header></app-header>
+
+		<div class="bg-black bg-opacity-50 h-full w-full absolute top-0 left-0" aria-hidden="true"></div>
+
+		<div class="container px-20 md:px-15 py-20 relative z-10 text-center">
+			<h1 class="text-4xl font-extrabold text-white">
+				{{ pageText }}
+			</h1>
+		</div>
+
+	</div>
+
+</section>
+
+
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>

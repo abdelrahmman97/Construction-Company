@@ -1,0 +1,46 @@
+<main class="h-screen flex flex-col lg:flex-row items-center justify-center bg-[#F3F4F6] text-center relative">
+
+	<div class="relative flex flex-col items-center justify-center lg:w-1/2">
+
+		<div class="absolute inset-0 flex items-center justify-center">
+
+			<h1 class="text-[300px] font-extrabold text-gray-300">404</h1>
+
+		</div>
+
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+			stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+			class="w-20 h-20 mb-4 z-10">
+			<rect x="2" y="6" width="20" height="8" rx="1"></rect>
+			<path d="M17 14v7"></path>
+			<path d="M7 14v7"></path>
+			<path d="M17 3v3"></path>
+			<path d="M7 3v3"></path>
+			<path d="M10 14 2.3 6.3"></path>
+			<path d="m14 6 7.7 7.7"></path>
+			<path d="m8 6 8 8"></path>
+		</svg>
+
+		<h1 class="text-4xl font-bold tracking-tighter mb-4 z-10 text-gray-600">لم يتم العثور على الصفحة</h1>
+
+		<p
+			class="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mb-6 z-10">
+			عذرا، الصفحة التي تبحث عنها غير موجودة.
+		</p>
+
+		<a [routerLink]="['/']"
+			class="inline-flex items-center justify-center rounded-md ring-offset-background transition-colors
+			focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2
+			disabled:pointer-events-none disabled:opacity-50 h-10 px-6 py-2 text-sm font-medium z-10
+			bg-blue-700 hover:bg-blue-600 text-white">
+			العودة الي الصفحة الرئيسية
+		</a>
+
+	</div>
+
+	<div class="hidden lg:flex lg:w-1/2 h-full">
+		<img src="./assets/images/image-2.jpg" alt="Error illustration" loading="lazy"
+			class="h-full w-full object-cover" style="aspect-ratio: 800 / 800;">
+	</div>
+
+</main>

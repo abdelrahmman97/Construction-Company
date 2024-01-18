@@ -1,0 +1,63 @@
+<footer class="relative p-4 md:p-8 lg:p-10 bg-cover" style="background-image: url('./assets/images/image-7.jpg');">
+
+	<div class="bg-black bg-opacity-50 h-full w-full absolute top-0 left-0 z-0" aria-hidden="true"></div>
+
+	<div class="mx-auto max-w-screen-xl text-center z-20">
+
+		<div class="flex sm:flex-row flex-col justify-between items-center gap-4 relative">
+
+			<div class="flex flex-col sm:items-start items-center gap-2 z-20">
+				<a [routerLink]="['/']" class="text-2xl font-semibold text-white font-['Reem_Kufi_Fun']">
+					أبو احمد المصري
+				</a>
+				<p class="m-0 text-gray-500 dark:text-gray-400">
+					شريك البناء الذي يمكنك الاعتماد عليه
+				</p>
+			</div>
+
+			<ul class="flex flex-wrap justify-center items-center mb-6 text-white z-20">
+				<li>
+					<a class="relative mr-4 md:mr-6" href="#about-us">
+						من نحن
+					</a>
+				</li>
+				<li>
+					<a class="relative mr-4 md:mr-6" href="#services">
+						خدماتنا
+					</a>
+				</li>
+				<li>
+					<a class="relative mr-4 md:mr-6" [routerLink]="['/contact-us']">
+						تواصل معنا
+					</a>
+				</li>
+			</ul>
+
+		</div>
+
+		<div class="flex sm:flex-row flex-col gap-2 justify-between items-center mt-8 relative">
+
+			<span class="text-sm sm:text-center text-gray-400">أبو احمد المصري. جميع الحقوق محفوظة. {{currentYear}}
+				©.</span>
+
+			<div class="flex justify-center justify-items-center align-middle gap-4">
+				<a class="sm:text-center text-gray-400 hover:text-blue-600 text-2xl" href="#">
+					<i class="bi bi-facebook"></i>
+				</a>
+				<a class="sm:text-center text-gray-400 hover:text-blue-600 text-2xl" href="#">
+					<i class="bi bi-twitter-x"></i>
+				</a>
+				<a class="sm:text-center text-gray-400 hover:text-blue-600 text-2xl" href="https://wa.me/{{whatsapp}}" target="_blank">
+					<i class="bi bi-whatsapp"></i>
+				</a>
+			</div>
+
+		</div>
+
+		<div class="relative border-t border-gray-700 mt-2 pt-4 text-center text-sm font-bold text-gray-400" dir="ltr" lang="en">
+			Developed by <a href="https://abdelrahmman97.github.io/portfolio/"
+				class="hover:text-blue-600 z-20">&lt;/AM&gt;</a>
+		</div>
+
+	</div>
+</footer>
